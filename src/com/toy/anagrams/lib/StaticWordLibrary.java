@@ -30,7 +30,10 @@
 /* Anagram Game Application */
 
 package com.toy.anagrams.lib;
-
+//import java.util.Random;
+//import java.security.SecureRandom;
+//import org.apache.commons.lang3.StringUtils;
+//import java.util.UUID;
 /**
  * Implementation of the logic for the Anagram Game application.
  */
@@ -81,7 +84,10 @@ final class StaticWordLibrary extends WordLibrary {
         "hotjava",
         "vertex",
         "unsigned",
-        "traditional"};
+        "traditional",
+       // "bob",
+        //"stewart"
+        };
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         "batsartcoin",
@@ -128,8 +134,20 @@ final class StaticWordLibrary extends WordLibrary {
         "ohjtvaa",
         "evtrxe",
         "nuisngde",
-        "rtdatioialn"
+        "rtdatioialn",
+     //   "bbo",
+       // "wesrtat"
     };
+    
+    //public String changeword(String[] s){
+    	//String ss = RandomStringUtils.randomAlphabetic(s.length());
+    	//Random r = new Random();
+    	//String ss = UUID.randomUUID().toString();
+    	//return ss;
+    	
+    	
+    
+   // }
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
 
